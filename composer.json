@@ -1,0 +1,18 @@
+{
+  "name":"alone-php/ipadder",
+  "type":"library",
+  "license":"MIT",
+  "version":"1.0.0",
+  "description":"通过ip获取地址",
+  "require":{
+    "php":">=8.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "AlonePhp\\IpAdder\\":"src/"
+    },
+    "files":[
+      "function.php"
+    ]
+  }
+}
